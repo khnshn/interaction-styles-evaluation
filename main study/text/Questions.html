@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+        Questions
+    </title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
+    <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
+</head>
+
+<body>
+    <!-- Displaying the question -->
+    <div class="ui-page" id="question_1">
+        <header class="ui-header">
+            <h2 class="ui-title questions_header" id="q_header"></h2>
+        </header>
+
+        <div class="ui-content ui-content-padding ">
+            <p id="q_interaction" class="q_interaction"></p>
+            <p id="q_content" class="question_question">
+                <p/>
+        </div>
+
+        <footer class="ui-footer ui-bottom-button ui-fixed">
+            <button class="ui-btn" id="q_button">
+                Tick to answer
+            </button>
+        </footer>
+    </div>
+
+    <!-- run script to get current sequence -->
+    <script src="js/define_sequence.js">
+    </script>
+</body>
+
+</html>
